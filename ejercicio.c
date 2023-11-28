@@ -42,7 +42,16 @@
             }
             printf(" \n");
         }
-
+        //Sumamos la matrices
+         printf("RESULTADO:\n");
+        for (int i = 0; i < F; i++)
+        {
+            for (int j = 0; j < C; j++)
+            {
+                printf("%d", RES[i][j]);
+            }
+            printf(" \n");
+        }
         
     return 0;
  }
