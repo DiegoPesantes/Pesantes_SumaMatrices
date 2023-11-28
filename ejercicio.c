@@ -32,6 +32,17 @@
             printf(" \n");
         }
         //Imprimimos segunda matriz//
+                printf("Segunda Matriz: \n");
+
+        for (int i = 0; i < F; i++)
+        {
+            for (int j = 0; j < C; j++)
+            {
+                printf("%d", SM[i][j]);
+            }
+            printf(" \n");
+        }
+
         
     return 0;
  }
