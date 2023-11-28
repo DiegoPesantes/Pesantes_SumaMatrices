@@ -11,48 +11,7 @@
     int PM[F][C];
     int SM[F][C];
     int RES[F][C];
-    for (int i = 0; i < F; i++)
-    {
-        for (int j = 0; j < C; j++)
-        {
-            PM[i][j]= rand()%101;
-            SM[i][j]= rand()%101;
-            RES[i][j] = PM[i][j]+SM[i][j];
-        }
-        //Imprimimos primera matriz//
-    }
-        printf("Primera Matriz:\n");
-
-        for (int i = 0; i < F; i++)
-        {
-            for (int j = 0; j < C; j++)
-            {
-                printf("%d", PM[i][j]);
-            }
-            printf(" \n");
-        }
-        //Imprimimos segunda matriz//
-        printf("Segunda Matriz: \n");
-
-        for (int i = 0; i < F; i++)
-        {
-            for (int j = 0; j < C; j++)
-            {
-                printf("%d", SM[i][j]);
-            }
-            printf(" \n");
-        }
-
-        //Sumamos la matrices
-         printf("RESULTADO:\n");
-        for (int i = 0; i < F; i++)
-        {
-            for (int j = 0; j < C; j++)
-            {
-                printf("%d", RES[i][j]);
-            }
-            printf(" \n");
-        }
+    
     return 0;
  }
  
